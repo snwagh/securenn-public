@@ -94,7 +94,7 @@ Matrix multiplication assembly code only works for Intel C/C++ compiler. Use the
 You can cite the paper using the following bibtex entry:
 ```
 @article{wagh2019securenn,
-  title={{S}ecure{NN}: 3-{P}arty {S}ecure {C}omputation for {N}}eural {N}}etwork {T}raining},
+  title={{S}ecure{NN}: 3-{P}arty {S}ecure {C}omputation for {N}eural {N}etwork {T}raining},
   author={Wagh, Sameer and Gupta, Divya and Chandran, Nishanth},
   journal={Proceedings on Privacy Enhancing Technologies},
   year={2019}
