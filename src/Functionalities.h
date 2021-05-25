@@ -46,6 +46,7 @@ void aggregateCommunication();
 //Debug
 void debugDotProd();
 void debugComputeMSB();
+void debugComputeShareConvert();
 void debugPC();
 void debugDivision();
 void debugMax();
