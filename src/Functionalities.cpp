@@ -82,13 +82,12 @@ void funcReconstructOdd2PC(const vector<myType> &a, size_t size, string str)
 		receiveVector<myType>(temp, PARTY_B, size);
 		addModuloOdd<myType, myType>(temp, a, temp, size);
 	
-		cout << str << ": ";
+		cout << str << "funcReconstructOdd2PC : ";
 		for (size_t i = 0; i < size; ++i)
 			print_linear(temp[i], DEBUG_PRINT);
 		cout << endl;
 	}
 }
-
 
 void funcReconstructBit2PC(const vector<smallType> &a, size_t size, string str)
 {
@@ -736,7 +735,6 @@ void funcShareConvertMPC(vector<myType> &a, size_t size)
 		subtractModuloOdd<myType, myType>(a, theta_shares, a, size);
 	}
 }
-
 
 //Compute MSB of a and store it in b
 //4PC: output is boolean shares of MSB in b
@@ -1712,13 +1710,13 @@ void debugComputeShareConvert()
 
 	if (partyNum == PARTY_A)
 		for (size_t i = 0; i < size; ++i)
-			a[i] = i - 5;
+			a[i] = 2*(i - 5); // cannot be -1
 
 	// only test 3PC
 	funcShareConvertMPC(a, size);
 
 	if (PRIMARY)
-		funcReconstructOdd2PC(a, size, "c in ring L-1");
+		funcReconstructOdd2PC(a, size, "a in ring L-1");
 }
 
 void debugPC()

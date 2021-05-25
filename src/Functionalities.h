@@ -15,6 +15,7 @@ extern void end_communication(string str);
 void funcTruncate2PC(vector<myType> &a, size_t power, size_t size, size_t party_1, size_t party_2);
 void funcXORModuloOdd2PC(vector<smallType> &bit, vector<myType> &shares, vector<myType> &output, size_t size);
 void funcReconstruct2PC(const vector<myType> &a, size_t size, string str);
+void funcReconstructOdd2PC(const vector<myType> &a, size_t size, string str);
 void funcReconstructBit2PC(const vector<smallType> &a, size_t size, string str);
 void funcConditionalSet2PC(const vector<myType> &a, const vector<myType> &b, vector<smallType> &c, 
 							vector<myType> &u, vector<myType> &v, size_t size);
