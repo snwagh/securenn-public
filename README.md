@@ -8,7 +8,7 @@ Secure multi-party computation (SMC/MPC) provides a cryptographically secure fra
 <img align="middle" src="https://snwagh.github.io/public/Images/flow.png" width="500" >
 </p>
 
-We develop and implement efficient protocols for the above set of functionalities. This work is published in [Privacy Enhancing Technologies Symposium (PETS) 2019](https://petsymposium.org/2019/). Paper available [here](http://snwagh.github.io/publications/). Feel free to checkout the follow-up work [Falcon](http://snwagh.github.io/publications/) and it's imporved [implementation](https://github.com/snwagh/falcon-public/). 
+We develop and implement efficient protocols for the above set of functionalities. This work is published in [Privacy Enhancing Technologies Symposium (PETS) 2019](https://petsymposium.org/2019/). Paper available [here](http://snwagh.github.io/publications/). Feel free to checkout the follow-up work [Falcon](http://snwagh.github.io/publications/) and it's imporved [implementation](https://github.com/snwagh/falcon-public/).  If you're looking to run Neural Network training, strongly consider using this GPU-based codebase [Piranha](https://github.com/ucbrise/piranha).
 
 ### Table of Contents
 
